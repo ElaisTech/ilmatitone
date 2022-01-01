@@ -1,0 +1,94 @@
+#logo {
+    max-width: 200px;
+    margin: 0px 0px 0px -75px;
+   
+}
+
+.listanav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-content: center;
+    align-items: center;
+   
+    
+}
+
+.centralimg {
+    display: flex;
+    justify-content: center;
+}
+.immagina {
+    
+    width: 100%;
+    height: auto;
+    border-color: black;
+    border-style: solid;
+    margin: 2rem;
+   
+    
+}
+
+.Navtext {
+   letter-spacing: 2px;
+   word-spacing: 5px;
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   font-family: 'Pushster', cursive;
+   font-size: 29px;
+   padding-right: 30px;
+   
+   
+   
+}
+
+hr {
+    width: auto;
+    border-color:burlywood;
+    border-style: solid;
+    border-width: 2px;
+    background-color: burlywood;
+}
+.##navbar {
+    border-style: solid;
+    border-color: burlywood;
+    margin: 1px;
+    margin: -15px -15px 0px -15px;
+}
+.frasonawrapper {
+    display: flex;
+    justify-content: center;
+}
+.frasona {
+    font-family: 'Pushster', cursive;
+    font-size: 2.5rem;
+    margin: 8rem;
+}
+
+.immaginiserviziwerapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.immaginiservizi {
+    width: 400px;
+    height: 400px;
+    border-color: black;
+    border-style: solid;
+    margin: 1rem;
+}
+
+
+.imgtxt {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.linktxt {
+    color: black;
+    text-decoration: none;
+    margin: 1rem;
+}
