@@ -1,15 +1,12 @@
 const btn = document.querySelector('#btncontact');
-const element = document.querySelector('.panel');
-const style = element.style.display;
+const element = document.querySelector('.panel').style;
 
 const show = () => {
-    if (style == "none") {
-        style = "flex";
+    if (element.display == "none") {
+        element.display = "flex";
     } else {
-        style = "none";
+        element.display = "none";
     }
 }
-
-btn.addEventListener('click', show);
 
 
