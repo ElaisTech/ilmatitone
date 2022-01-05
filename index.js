@@ -1,10 +1,15 @@
-var toggle = () => {
-    
-    if (document.querySelector('.panel').style.display = "none") {
-         document.querySelector('.panel').style.display = "flex";
-    } else if (document.querySelector('.panel').style.display = "flex") {
-        document.querySelector('.panel').style.display = "none";
+const btn = document.querySelector('#btncontact');
+const element = document.querySelector('.panel');
+const style = element.style.display;
+
+const show = () => {
+    if (style == "none") {
+        style = "flex";
+    } else {
+        style = "none";
     }
 }
+
+btn.addEventListener('click', show);
 
 
