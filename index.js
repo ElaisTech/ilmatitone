@@ -10,3 +10,6 @@ const show = () => {
 }
 
 
+btn.addEventListener('click', show);
+
+

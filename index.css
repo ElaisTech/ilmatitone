@@ -10,18 +10,21 @@
     list-style: none;
     align-content: center;
     align-items: center;
-    
+    max-width: 100%;
    
     
 }
 
+.logo2wrapper {
+    display: none;
+}
 .centralimg {
     display: flex;
     justify-content: center;
 }
 .immagina {
     
-    width: 100%;
+    max-width: 100%;
     height: auto;
     border-color: black;
     border-style: solid;
@@ -50,12 +53,7 @@ hr {
     border-width: 2px;
     background-color: burlywood;
 }
-.##navbar {
-    border-style: solid;
-    border-color: burlywood;
-    margin: 1px;
-    margin: -15px -15px 0px -15px;
-}
+
 .frasonawrapper {
     display: flex;
     justify-content: center;
@@ -135,4 +133,67 @@ hr {
     font-size: 2.5rem;
     text-decoration: none;
     color: rgb(94, 94, 94);
+}
+
+@media screen  and (max-width: 480px) {
+ 
+    .logo2wrapper {
+        display: flex;
+        justify-content: center;
+       
+        
+    }
+    #logo {
+        max-width: 50px;
+               
+    }
+
+    .frasona {
+        
+        font-size: 1.5rem;
+        margin: 2rem;
+        text-align: center;
+    }
+
+    hr {
+        max-width: auto;
+        border-width: 3px;
+       
+    }
+
+    .listanav {
+        padding: 10px;
+        max-width: 100%;
+       
+        
+    }
+    
+   
+
+    .immaginiserviziwerapper {
+        
+        flex-direction: column;
+        
+    
+    }
+    
+    .immaginiservizi {
+        width: 200px;
+        height: 200px;
+        margin: 1rem;
+    }
+
+    .Navtext {
+        letter-spacing: 0.5px;
+        word-spacing: 1px;
+        font-size: 16px;
+        padding-right: 12px;
+        
+        
+      
+     }
+
+     #logo {
+         display: none;
+     }
 }
